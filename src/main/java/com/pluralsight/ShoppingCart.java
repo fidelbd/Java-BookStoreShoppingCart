@@ -18,7 +18,7 @@ public class ShoppingCart {
    calculateOrderTotal();
  }
 
- public void deleteCartItme(int index) {
+ public void deleteCartItem(int index) {
 	 try {
 		 cartItems.remove(index);
 	 }catch (IndexOutOfBoundsException e) {
