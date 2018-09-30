@@ -26,7 +26,7 @@ public class ShoppingCart {
 	}
  }
  
- public void update(int index, int quantity) {
+ public void updateCartItem(int index, int quantity) {
 	 try {
 	 CartItem cartItem = cartItems.get(index);
 	 cartItem.setQuantity(quantity);
